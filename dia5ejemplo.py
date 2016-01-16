@@ -8,6 +8,7 @@ def contar_letras(texto):
     return dic
 
 class Punto ():
-    def __init__(self): #es el constructor
-        self.x = 3
-        self.y = 5
+    def __init__(self, puntox, puntoy):
+        self.x = puntox
+        self.y = puntoy
+
